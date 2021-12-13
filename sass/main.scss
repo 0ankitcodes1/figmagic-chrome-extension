@@ -1,0 +1,199 @@
+$family-sans-serif: 'Inter', sans-serif;
+// $tabs-border-bottom-width: 1rem;
+$tabs-link-hover-border-bottom-color: white;
+$tabs-link-active-border-bottom-color: white;
+$tabs-border-bottom-color: #474747;
+
+
+
+@import "../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../node_modules/bulma/bulma.sass";
+
+.no-shadow {
+    box-shadow: none !important;
+}
+.no-border {
+    border: 0;
+}
+
+.button { border-radius: 0;}
+
+.remove-border-radius {
+    border-radius: 0;
+}
+
+.rounded-full {
+    border-radius: 100%;
+}
+
+.custom-container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+// Setting up custom variable //
+:root {
+    --custom-primary: #F0B000;
+    --custom-secondary: #FF5D89;
+    --custom-dark: #1A1A1A;
+    --custom-dark-80: rgba(#1A1A1A, .8);
+    --custom-dark-60: rgba(#1A1A1A, .6);
+    --custom-light: #F0EEE9;
+    
+    --custom-error: #EB5757;
+    --custom-success: #32BE40;
+    --custom-white: #FFFFFF;
+    --custom-white-80: rgba(#FFFFFF, .8);
+    --custom-white-20: rgba(#FFFFFF, .2);
+
+    --custom-fs-72: 72px;
+    --custom-fs-48: 48px;
+    --custom-fs-36: 36px;
+    --custom-fs-24: 24px;
+    --custom-fs-18: 18px;
+    --custom-fs-16: 16px;
+    --custom-fs-14: 14px;
+
+    --custom-fw-700: 700;
+    --custom-fw-600: 600;
+    --custom-fw-500: 500;
+    --custom-fw-400: 400;
+
+    --custom-br-32: 32px;
+    --custom-br-20: 20px;
+    --custom-br-8: 8px;
+}
+* {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custom-overflow-all-hiden {
+    overflow: hidden !important;
+}
+// ========================== //
+.custom-border {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.custom-br-circle {
+    border-radius: 100% !important;
+}
+.custom-shadow-lg {
+    box-shadow: 1rem -1rem 0 #E5E4DF !important;
+}
+.forced-centered {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.custom-fs-72 {
+    font-size: var(--custom-fs-72) !important;
+}
+.custom-fs-48 {
+    font-size: var(--custom-fs-48) !important;
+}
+.custom-fs-36 {
+    font-size: var(--custom-fs-36) !important;
+}
+.custom-fs-24 {
+    font-size: var(--custom-fs-24) !important;
+}
+.custom-fs-18 {
+    font-size: var(--custom-fs-18) !important;
+}
+.custom-fs-16 {
+    font-size: var(--custom-fs-16) !important;
+}
+.custom-fs-14 {
+    font-size: var(--custom-fs-14) !important;
+}
+
+.custom-fw-700 {
+    font-weight: var(--custom-fw-700) !important;
+}
+.custom-fw-600 {
+    font-weight: var(--custom-fw-600) !important;
+}
+.custom-fw-500 {
+    font-weight: var(--custom-fw-500) !important;
+}
+.custom-fw-400 {
+    font-weight: var(--custom-fw-400) !important;
+}
+
+.custom-br-32 {
+    border-radius: var(--custom-br-32) !important;
+}
+.custom-br-20 {
+    border-radius: var(--custom-br-20) !important;
+}
+.custom-br-8 {
+    border-radius: var(--custom-br-8) !important;
+}
+
+
+.custom-text-primary {
+    color: var(--custom-primary) !important;
+}
+.custom-bg-primary {
+    background-color: var(--custom-primary) !important;
+}
+.custom-text-secondary {
+    color: var(--custom-secondary) !important;
+}
+.custom-bg-secondary {
+    background-color: var(--custom-secondary) !important;
+}
+.custom-text-dark {
+    color: var(--custom-dark) !important;
+}
+.custom-bg-dark {
+    background-color: var(--custom-dark) !important;
+}
+.custom-text-dark-80 {
+    color: var(--custom-dark-80) !important;
+}
+.custom-bg-dark-80 {
+    background-color: var(--custom-dark-80) !important;
+}
+.custom-text-dark-60 {
+    color: var(--custom-dark-60) !important;
+}
+.custom-bg-dark-60 {
+    background-color: var(--custom-dark-60) !important;
+}
+.custom-text-light {
+    color: var(--custom-light) !important;
+}
+.custom-bg-light {
+    background-color: var(--custom-light) !important;
+}
+.custom-text-error {
+    color: var(--custom-error) !important;
+}
+.custom-bg-error {
+    background-color: var(--custom-error) !important;
+}
+.custom-text-success {
+    color: var(--custom-light) !important;
+}
+.custom-bg-success {
+    background-color: var(--custom-success) !important;
+}
+.custom-text-white {
+    color: var(--custom-white) !important;
+}
+.custom-bg-white {
+    background-color: var(--custom-white) !important;
+}
+.custom-text-white-80 {
+    color: var(--custom-white-80) !important;
+}
+.custom-bg-white-80 {
+    background-color: var(--custom-white-80) !important;
+}
+.custom-text-white-20 {
+    color: var(--custom-white-20) !important;
+}
+.custom-bg-white-20 {
+    background-color: var(--custom-white-20) !important;
+}
