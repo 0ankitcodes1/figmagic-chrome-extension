@@ -5,9 +5,5 @@ Chrome extension for taking webpages screenshot, copying images, copying text wh
 
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/4dzM87Y/figmagic.jpg)
+![App Screenshot](https://i.ibb.co/wgHCcFC/chrome-extension.jpg)
 
-
-## Demo
-
-![App Screenshot](https://i.ibb.co/4dzM87Y/figmagic.jpg)
